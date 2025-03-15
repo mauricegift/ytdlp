@@ -1,0 +1,34 @@
+{
+  "name": "express-downloader-api",
+  "version": "1.0.0",
+  "description": "An Express API for downloading videos and audio using yt-dlp",
+  "main": "./app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "yt-dlp",
+    "video-downloader",
+    "audio-downloader",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5", 
+    "dotenv": "^16.0.3", 
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7", 
+    "yt-dlp-exec": "latest" 
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20" 
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x" 
+  }
+}
