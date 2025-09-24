@@ -15,7 +15,7 @@
     "audio-downloader",
     "api"
   ],
-  "author": "Your Name",
+  "author": "Gifted Tech",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5", 
@@ -27,7 +27,7 @@
     "nodemon": "^2.0.20" 
   },
   "engines": {
-    "node": "16.x",
-    "npm": "8.x" 
+    "node": "22.x",
+    "npm": "10.x" 
   }
 }
