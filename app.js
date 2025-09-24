@@ -57,7 +57,7 @@ function getFileDetails(filePath) {
 class MediaDownloader {
   constructor() {
     this.config = {
-      tempDir: process.env.TEMP_DOWNLOAD_DIR || path.join(process.cwd(), 'tmp'),
+      tempDir: process.env.TEMP_DOWNLOAD_DIR || path.join(process.cwd(), 'temp'),
       maxFileSize: (parseInt(process.env.MAX_UPLOAD, 10) * 1048576) || 524288000,
       ytDlpPath: path.join(process.cwd(), 'media', 'bin'),
       maxConcurrent: parseInt(process.env.MAXSOLICITUD, 10) || 2,
